@@ -283,10 +283,26 @@ p.sub-title {
     color: #7b8b8e;
 }
 
+html {
+    scrollbar-color: #444444 #1a1a1a;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #1a1a1a;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #444444;
+}
+
 body {
     overflow-x: hidden;
     background-color: #1a1a1a;
     font-family: 'Muli', sans-serif;
+    scrollbar-color: rebeccapurple green;
 }
 
 .centered {
